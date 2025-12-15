@@ -36,3 +36,25 @@ outline: none;
   filter: brightness(0.9) contrast(1.1);
   opacity: 0.9;
 }
+
+@keyframes slide-down-up {
+    /* Shows photohero.png */
+    0% { transform: translateY(0); }
+    
+    /* Shows photohero1.jpeg */
+    25% { transform: translateY(-25%); } 
+
+    /* Shows photohero2.jpeg */
+    50% { transform: translateY(-50%); } 
+
+    /* Shows photohero3.jpeg */
+    75% { transform: translateY(-75%); } 
+
+    /* Resets to photohero.png */
+    100% { transform: translateY(0); }
+}
+
+.carousel-track {
+    /* Apply animation */
+    animation: slide-down-up 20s infinite linear;
+}
