@@ -25,7 +25,7 @@ const SERVICE_TIER_DETAILS: ServiceTier[] = [
         ctaText: 'Unlock Insight',
         ctaAction: 'Login',
         features: [
-            'Real-time messaging guidance on dating apps',
+            'Real-time messaging guidance on dating',
             'AI-driven profile assessment',
             'Access to core AI knowledge base',
         ],
@@ -60,7 +60,6 @@ const SERVICE_TIER_DETAILS: ServiceTier[] = [
             'Everything in Voice Advisor',
             'Video profile optimization feedback',
             'AI-driven mock video date analysis',
-            'Advanced behavioral communication insights',
         ],
         tag: 'Coming Soon',
         iconColor: 'bg-gray-500',
