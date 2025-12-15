@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+background-color: #FAF2E8;
+}
+
+
+h1, h2, h3 {
+font-family: 'Playfair Display', serif;
+}
+
+
+body {
+margin: 0;
+min-height: 100vh;
+}
+
+
+/* REMOVE DEFAULT BUTTON / OUTLINE BOXES */
+button {
+background: transparent;
+border: none;
+outline: none;
+}
+
+/* CRITICAL: Image adjustment for Dark Mode */
+.dark .hero-image-visual {
+  /* Slightly desaturate and invert the image color for a softer look in dark mode */
+  filter: brightness(0.9) contrast(1.1);
+  opacity: 0.9;
+}
